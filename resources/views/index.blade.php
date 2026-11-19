@@ -7,6 +7,15 @@
     <h1>Šeit būs raksti!</h1>
 </head>
 <body>
+<?php
+$produkti = ["Šodien taisam maizi", "Pērkam olas un pienu","Makruss lēka pa batutu"];
+
+echo "<ol>";
+foreach ($produkti as $elements) {
+    echo "<li>" . $elements . "</li>";
+}
+echo "</ol>";
+?>
 
 </body>
 </html>
